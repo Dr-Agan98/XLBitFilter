@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<listaUtenti>
+<utente>
+<chiave>10820</chiave>
+<nomeHotel>hotel sonnenparadies</nomeHotel>
+<tipoStruttura>hotel</tipoStruttura>
+<tipoOp>hotel</tipoOp>
+<livello>40</livello>
+<questionario>
+<nUtente>10820</nUtente>
+<admin>18</admin>
+<updated>2016-11-21 14:06:36.0</updated>
+<risposte>
+<gest voce="text">protel</gest>
+<gest voce="nessuno">false</gest>
+</risposte>
+</questionario>
+</utente>
+<utente>
+<chiave>17257</chiave>
+<nomeHotel>hotel monzoni</nomeHotel>
+<tipoStruttura>hotel</tipoStruttura>
+<tipoOp>hotel</tipoOp>
+<livello>40</livello>
+<questionario>
+<nUtente>17257</nUtente>
+<admin>0</admin>
+<updated>2016-10-25 08:02:06.0</updated>
+<risposte>
+<gest voce="text">protel</gest>
+<chann voce="nessuno">false</chann>
+<gest voce="nessuno">false</gest>
+<siti voce="booking">false</siti>
+<chann voce="vertical">true</chann>
+<siti voce="nessuno">false</siti>
+</risposte>
+</questionario>
+</utente>
+<utente>
+<chiave>419197</chiave>
+<nomeHotel>hotel chalet del brenta</nomeHotel>
+<tipoStruttura>hotel</tipoStruttura>
+<tipoOp>hotel</tipoOp>
+<livello>40</livello>
+<questionario>
+<nUtente>419197</nUtente>
+<admin>0</admin>
+<updated>2016-08-05 10:54:48.0</updated>
+<risposte>
+<rich voce="nessuno">true</rich>
+<gest voce="text">protel</gest>
+<rich voce="gest">false</rich>
+<engi voce="bookexp">true</engi>
+<rm voce="nessuno">false</rm>
+<rm voce="interno">true</rm>
+<siti voce="venere">true</siti>
+<chann voce="nessuno">false</chann>
+<gest voce="nessuno">false</gest>
+<engi voce="nessuno">false</engi>
+<siti voce="expedia">true</siti>
+<rich voce="easy">false</rich>
+<siti voce="booking">true</siti>
+<chann voce="vertical">true</chann>
+<siti voce="nessuno">false</siti>
+</risposte>
+</questionario>
+</utente>
+</listaUtenti>

@@ -1,10 +1,13 @@
 package xlbit.data;
 
 import xlbit.filter.*;
+import xlbit.xml.XmlGenerator;
+
 import java.sql.*;
 import java.util.Map;
 import java.util.HashMap;
-//import java.util.List;
+import javax.xml.parsers.ParserConfigurationException;
+import javax.xml.transform.TransformerException;
 
 public class MapManager {
 
@@ -56,8 +59,11 @@ public class MapManager {
 	}
 
 	public void filterByParams(ProjectEnums.EnumFilters fltr){
-		/*List<Utente> res = */dataFilter.filter(fltr);
-		//System.out.println();
+		try {
+			XmlGenerator.writeXml(dataFilter.filter(fltr));
+		} catch (ParserConfigurationException | TransformerException e) {
+			e.printStackTrace();
+		}
 	}
 
 	//Getters

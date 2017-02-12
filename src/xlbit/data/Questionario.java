@@ -11,14 +11,14 @@ public class Questionario {
 	private Map<String, String> risposte;
 
 	public Questionario(int nUtente) {
-		this.nUtente=nUtente;
+		this.nUtente = nUtente;
 		this.admin = 0;
 		this.risposte = new HashMap<>();
 		this.updated = null;
 	}
 
 	public void addQuestionario(int admin,String categoria,String idVoce,String value,Timestamp updated) {
-		this.admin =admin;
+		this.admin = admin;
 		this.updated = updated;
 		risposte.put(categoria+"_"+idVoce.toLowerCase(), value.toLowerCase());
 	}
